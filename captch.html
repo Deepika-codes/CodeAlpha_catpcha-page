@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPTCHA</title>
+    <link rel="stylesheet" href="cap.css">
+</head>
+<body>
+    <p>Please enter the captcha: <br><span id="captcha"></span></p>
+    <form id="captchaForm" onsubmit="check(event)">
+      <input type="text" id="capinput" />
+      <button onclick="test()">SUBMIT</button>
+    </form>
+    <br>
+    <button onclick="generateCaptcha()">Generate CAPTCHA</button>
+    <script src="c.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    color: white;
+    border-radius: 5px;
+    background: #353061;
+    box-shadow: 5px 5px 10px #7270b9,-5px -5px 0px #7270b9;
+    padding: 3%;
+    text-align: center;
+}
+body p{
+    font-size: 3rem;
+    font-weight: 100;
+    margin: 2rem 0;
+} 
+input {
+    width: 50%;
+    padding: 10px;
+    border:1px solid #ffffff;
+    border-bottom: 1px solid #ccc;
+  }
+button {
+    display: inline-block;
+    width: 10%;
+    padding: 10px 30px;
+    background-color: #353061;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+button:hover {
+    background-color: #4d48f5;
+  }
